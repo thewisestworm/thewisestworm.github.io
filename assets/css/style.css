@@ -16,27 +16,28 @@ body {
   margin: 0;
   padding: 0;
   font-family: Arial, Helvetica, sans-serif;
-  background-color: var(--content-bg);
+  background-color: var(--nav-bg);
   color: var(--text-white);
   line-height: 1.6;
 }
 
 /* ==========================================================================
-   NAVIGATION BAR
+   HEADER & NAVIGATION BAR (WHITE TOP BAR ACROSS ALL PAGES)
    ========================================================================== */
 header {
-  background-color: var(--nav-bg);
-  padding: 20px 40px;
+  background-color: #ffffff; /* White top navigation bar */
+  padding: 18px 40px;
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
 
 header .site-title {
-  font-family: 'Niconne', cursive, Georgia, serif;
-  font-size: 32px;
+  font-family: 'Frank Ruhl Libre', Georgia, serif;
+  font-size: 30px;
+  font-weight: 700;
   text-decoration: none;
-  color: var(--text-white);
+  color: #000000;
 }
 
 nav ul {
@@ -50,25 +51,108 @@ nav ul {
 
 nav a {
   text-decoration: none;
-  color: var(--text-white);
+  color: #3b4d61;
   font-size: 13px;
   letter-spacing: 1px;
   font-weight: 600;
 }
 
 nav a.btn-nav {
-  border: 1px solid var(--text-white);
+  border: 1px solid #3b4d61;
   padding: 6px 14px;
+}
+
+/* ==========================================================================
+   HOMEPAGE LAYOUT
+   ========================================================================== */
+.hero-wrapper {
+  background-color: var(--nav-bg);
+  min-height: calc(100vh - 70px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 80px 20px 80px 20px; /* Generous breathing room above/below */
+  box-sizing: border-box;
+}
+
+.hero-layout {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  max-width: 1000px;
+  width: 100%;
+  margin: 0 auto;
+  gap: 50px;
+}
+
+.hero-text {
+  flex: 1;
+  max-width: 480px;
+  color: var(--text-white);
+  text-align: center;
+}
+
+.hero-text h1 {
+  font-size: 32px;
+  font-weight: 400;
+  margin-top: 0;
+  margin-bottom: 20px;
+}
+
+.hero-text p {
+  font-size: 15px;
+  line-height: 1.6;
+  margin: 0 auto 30px auto;
+  color: #e0e6ed;
+}
+
+.hero-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+}
+
+.hero-btn {
+  background-color: #ffffff;
+  color: #000000;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 13px;
+  padding: 10px 24px;
+  letter-spacing: 1px;
+  display: inline-block;
+  transition: background-color 0.2s ease;
+}
+
+.hero-btn:hover {
+  background-color: #e2e8f0;
+}
+
+.hero-image-wrapper {
+  flex: 1;
+  max-width: 400px;
+  display: flex;
+  justify-content: center;
+}
+
+img.hero-headshot {
+  width: 100% !important;
+  max-width: 380px !important;
+  max-height: 450px !important;
+  height: auto !important;
+  object-fit: cover;
+  display: block;
+  border: 1px solid rgba(255, 255, 255, 0.25); /* Faint outline */
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
 }
 
 /* ==========================================================================
    PROJECTS PAGE LAYOUT (TWO-TONE SPLIT)
    ========================================================================== */
-
-/* Dark Blue Top Banner */
 .projects-header {
   background-color: var(--nav-bg);
-  padding: 20px 20px 60px 20px;
+  padding: 40px 20px 60px 20px;
   text-align: center;
 }
 
@@ -80,7 +164,6 @@ nav a.btn-nav {
   font-family: Georgia, serif;
 }
 
-/* Light Slate Lower Area for Cards */
 .projects-body {
   background-color: var(--content-bg);
   padding: 60px 20px;
@@ -138,83 +221,6 @@ nav a.btn-nav {
 }
 
 /* ==========================================================================
-   HOMEPAGE LAYOUT
-   ========================================================================== */
-.hero-wrapper {
-  background-color: var(--nav-bg);
-  min-height: calc(100vh - 80px);
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  padding: 40px 20px;
-}
-
-.hero-layout {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: center;
-  max-width: 1000px;
-  width: 100%;
-  margin: 0 auto;
-  gap: 50px;
-}
-
-.hero-text {
-  flex: 1;
-  max-width: 480px;
-  color: var(--text-white);
-  text-align: center;
-}
-
-.hero-text h1 {
-  font-size: 32px;
-  font-weight: 400;
-  margin-top: 0;
-  margin-bottom: 20px;
-}
-
-.hero-text p {
-  font-size: 15px;
-  line-height: 1.6;
-  margin: 0 auto 30px auto;
-  color: #e0e6ed;
-}
-
-.hero-buttons {
-  display: flex;
-  justify-content: center;
-  gap: 15px;
-}
-
-.hero-btn {
-  background-color: #ffffff;
-  color: #000000;
-  text-decoration: none;
-  font-weight: 600;
-  font-size: 13px;
-  padding: 10px 24px;
-  letter-spacing: 1px;
-  display: inline-block;
-}
-
-.hero-image-wrapper {
-  flex: 1;
-  max-width: 400px;
-  display: flex;
-  justify-content: center;
-}
-
-img.hero-headshot {
-  width: 100% !important;
-  max-width: 380px !important;
-  max-height: 450px !important;
-  height: auto !important;
-  object-fit: cover;
-  display: block;
-}
-
-/* ==========================================================================
    ABOUT & DETAIL PAGES
    ========================================================================== */
 .page-container {
@@ -263,6 +269,11 @@ img.hero-headshot {
 @media (max-width: 600px) {
   .project-grid {
     grid-template-columns: 1fr;
+  }
+
+  .hero-layout {
+    flex-direction: column-reverse;
+    gap: 30px;
   }
 
   .projects-header .page-title {
