@@ -2,13 +2,10 @@
    GLOBAL VARIABLES & RESET
    ========================================================================== */
 :root {
-  --nav-bg: #ffffff;             /* White navigation bar */
-  --site-bg: #3b4d61;            /* Dark blue background matching your layout */
-  --card-bg: #8c9eae;            /* Light blue-gray for project grid background */
-  --text-dark: #000000;
+  --nav-bg: #3b4d61;             /* Dark blue navigation bar */
+  --content-bg: #8c9eae;         /* Light blue-gray content area */
   --text-white: #ffffff;
-  --text-muted: #e0e6ed;
-  --card-overlay: rgba(0, 0, 0, 0.4);
+  --card-overlay: rgba(0, 0, 0, 0.35);
 }
 
 * {
@@ -19,7 +16,7 @@ body {
   margin: 0;
   padding: 0;
   font-family: Arial, Helvetica, sans-serif;
-  background-color: var(--site-bg);
+  background-color: var(--content-bg);
   color: var(--text-white);
   line-height: 1.6;
 }
@@ -29,7 +26,7 @@ body {
    ========================================================================== */
 header {
   background-color: var(--nav-bg);
-  padding: 15px 40px;
+  padding: 20px 40px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -39,7 +36,7 @@ header .site-title {
   font-family: 'Niconne', cursive, Georgia, serif;
   font-size: 32px;
   text-decoration: none;
-  color: var(--text-dark);
+  color: var(--text-white);
 }
 
 nav ul {
@@ -53,31 +50,29 @@ nav ul {
 
 nav a {
   text-decoration: none;
-  color: var(--text-dark);
+  color: var(--text-white);
   font-size: 13px;
   letter-spacing: 1px;
   font-weight: 600;
 }
 
 nav a.btn-nav {
-  border: 1px solid var(--text-dark);
+  border: 1px solid var(--text-white);
   padding: 6px 14px;
 }
 
 /* ==========================================================================
-   MAIN CONTENT CONTAINER
+   HOMEPAGE SPLIT LAYOUT
    ========================================================================== */
-.content-area {
-  min-height: calc(100vh - 70px);
+.hero-wrapper {
+  background-color: var(--nav-bg);
+  min-height: calc(100vh - 80px);
   display: flex;
   align-items: center;
   justify-content: center;
   padding: 40px 20px;
 }
 
-/* ==========================================================================
-   HOMEPAGE SPLIT LAYOUT (SIDE-BY-SIDE)
-   ========================================================================== */
 .hero-layout {
   display: flex;
   flex-direction: row;
@@ -107,7 +102,7 @@ nav a.btn-nav {
   font-size: 15px;
   line-height: 1.6;
   margin: 0 auto 30px auto;
-  color: var(--text-muted);
+  color: #e0e6ed;
 }
 
 .hero-buttons {
@@ -151,19 +146,26 @@ img.hero-headshot {
 /* ==========================================================================
    PROJECTS GRID PAGES
    ========================================================================== */
+.projects-wrapper {
+  background-color: var(--content-bg);
+  min-height: calc(100vh - 80px);
+  padding: 60px 20px;
+}
+
 .page-title {
-  font-size: 48px;
+  font-size: 64px;
   font-weight: 300;
   text-align: center;
-  margin: 0 0 40px 0;
-  width: 100%;
+  margin: 0 0 50px 0;
+  color: var(--text-white);
+  font-family: Georgia, serif;
 }
 
 .project-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-template-columns: repeat(3, 1fr);
   gap: 20px;
-  max-width: 1100px;
+  max-width: 1200px;
   width: 100%;
   margin: 0 auto;
 }
@@ -197,13 +199,13 @@ img.hero-headshot {
 }
 
 .project-card:hover .overlay {
-  background-color: rgba(0, 0, 0, 0.2);
+  background-color: rgba(0, 0, 0, 0.15);
 }
 
 .project-card h2 {
   color: var(--text-white);
   font-size: 22px;
-  font-weight: normal;
+  font-weight: 400;
   margin: 0;
   text-align: center;
 }
@@ -215,14 +217,17 @@ img.hero-headshot {
   max-width: 800px;
   width: 100%;
   margin: 0 auto;
+  padding: 60px 20px;
   line-height: 1.7;
   font-size: 17px;
+  color: var(--text-white);
 }
 
 .page-container h1 {
-  font-size: 36px;
-  font-weight: 400;
+  font-size: 40px;
+  font-weight: 300;
   margin-top: 0;
+  font-family: Georgia, serif;
 }
 
 .page-container img {
@@ -234,8 +239,8 @@ img.hero-headshot {
 
 .resume-btn {
   display: inline-block;
-  background-color: var(--text-white);
-  color: var(--text-dark);
+  background-color: var(--nav-bg);
+  color: var(--text-white);
   padding: 10px 20px;
   text-decoration: none;
   font-weight: 600;
@@ -244,11 +249,17 @@ img.hero-headshot {
 }
 
 /* ==========================================================================
-   RESPONSIVE LAYOUT (MOBILE / SMALL SCREENS)
+   RESPONSIVE LAYOUT
    ========================================================================== */
-@media (max-width: 850px) {
-  header {
-    padding: 15px 20px;
+@media (max-width: 900px) {
+  .project-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 600px) {
+  .project-grid {
+    grid-template-columns: 1fr;
   }
 
   .hero-layout {
@@ -256,11 +267,7 @@ img.hero-headshot {
     gap: 30px;
   }
 
-  .hero-text {
-    max-width: 100%;
-  }
-
-  .hero-image-wrapper {
-    max-width: 100%;
+  .page-title {
+    font-size: 44px;
   }
 }
