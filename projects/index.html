@@ -3,29 +3,29 @@ layout: default
 title: Projects
 ---
 
-<h1 class="page-title">Project Portfolio</h1>
+<div class="projects-wrapper">
+  <h1 class="page-title">Project Portfolio</h1>
 
-<div class="project-grid">
+  <div class="project-grid">
+    <a href="{{ '/projects/fsae-electric' | relative_url }}" class="project-card">
+      <img src="{{ '/assets/images/proj1.jpg' | relative_url }}" alt="FSAE Electric">
+      <div class="overlay">
+        <h2>FSAE Electric</h2>
+      </div>
+    </a>
 
-  <a href="{{ '/projects/fsae-electric' | relative_url }}" class="project-card">
-    <img src="{{ '/assets/images/fsae-thumb.jpg' | relative_url }}" alt="FSAE Electric">
-    <div class="overlay">
-      <h2>FSAE Electric</h2>
-    </div>
-  </a>
+    <a href="{{ '/projects/bionics' | relative_url }}" class="project-card">
+      <img src="{{ '/assets/images/proj2.jpg' | relative_url }}" alt="Bionics">
+      <div class="overlay">
+        <h2>Bionics</h2>
+      </div>
+    </a>
 
-  <a href="{{ '/projects/bionics' | relative_url }}" class="project-card">
-    <img src="{{ '/assets/images/bionics-thumb.jpg' | relative_url }}" alt="Bionics">
-    <div class="overlay">
-      <h2>Bionics</h2>
-    </div>
-  </a>
-
-  <a href="{{ '/projects/academic' | relative_url }}" class="project-card">
-    <img src="{{ '/assets/images/academic-thumb.jpg' | relative_url }}" alt="Academic Projects">
-    <div class="overlay">
-      <h2>Academic Projects</h2>
-    </div>
-  </a>
-
+    <a href="{{ '/projects/academic/' | relative_url }}" class="project-card">
+      <img src="{{ '/assets/images/academic-thumb.jpg' | relative_url }}" alt="Academic Projects">
+      <div class="overlay">
+        <h2>Academic Projects</h2>
+      </div>
+    </a>
+  </div>
 </div>
