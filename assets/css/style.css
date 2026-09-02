@@ -167,3 +167,79 @@ nav a.btn-nav {
   border-radius: 4px;
   margin-bottom: 25px;
 }
+
+/* --- HOMEPAGE SPECIFIC STYLES --- */
+
+.hero-layout {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 1100px;
+  width: 100%;
+  gap: 60px;
+  margin: 0 auto;
+}
+
+.hero-text {
+  flex: 1;
+  color: #ffffff;
+  text-align: center;
+}
+
+.hero-text h1 {
+  font-size: 36px;
+  font-weight: 400;
+  margin-bottom: 24px;
+}
+
+.hero-text p {
+  font-size: 16px;
+  line-height: 1.6;
+  max-width: 480px;
+  margin: 0 auto 40px auto;
+  color: #e0e6ed;
+}
+
+.hero-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.hero-btn {
+  background-color: #ffffff;
+  color: #000000;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 13px;
+  padding: 12px 28px;
+  letter-spacing: 1px;
+  display: inline-block;
+  transition: background-color 0.2s ease;
+}
+
+.hero-btn:hover {
+  background-color: #e2e8f0;
+}
+
+.hero-image-wrapper {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+}
+
+.hero-headshot {
+  width: 100%;
+  max-width: 420px;
+  height: auto;
+  object-fit: cover;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+@media (max-width: 850px) {
+  .hero-layout {
+    flex-direction: column-reverse;
+    text-align: center;
+    gap: 30px;
+  }
+}
