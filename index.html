@@ -3,10 +3,21 @@ layout: default
 title: Home
 ---
 
-<div class="hero-container">
-  <img src="{{ '/assets/images/Headshot.jpg' | relative_url }}" alt="Sage Ugras" class="profile-img">
-  <div class="home-links">
-    <a href="{{ '/projects/' | relative_url }}" class="home-btn">PROJECTS</a>
-    <a href="{{ '/about' | relative_url }}" class="home-btn">ABOUT ME</a>
+<div class="hero-layout">
+  <div class="hero-text">
+    <h1>Hello, I'm Sage Ugras.</h1>
+    <p>
+      I am a Mechanical Engineer with a passion for design and rapid prototyping. 
+      I enjoy fast-paced, complex projects that require interdisciplinary collaboration 
+      where I get to apply my skills and work with others.
+    </p>
+    <div class="hero-buttons">
+      <a href="{{ '/projects/' | relative_url }}" class="hero-btn">PROJECTS</a>
+      <a href="{{ '/about' | relative_url }}" class="hero-btn">ABOUT ME</a>
+    </div>
+  </div>
+
+  <div class="hero-image-wrapper">
+    <img src="{{ '/assets/images/Headshot.jpg' | relative_url }}" alt="Sage Ugras" class="hero-headshot">
   </div>
 </div>
