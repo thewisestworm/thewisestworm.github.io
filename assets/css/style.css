@@ -1,0 +1,169 @@
+:root {
+  --nav-bg: #3b4d61;
+  --content-bg: #8c9eae;
+  --text-white: #ffffff;
+  --card-overlay: rgba(0, 0, 0, 0.4);
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  color: var(--text-white);
+  background-color: var(--content-bg);
+}
+
+header {
+  background-color: var(--nav-bg);
+  padding: 20px 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header .site-title {
+  font-family: 'Niconne', cursive;
+  font-size: 32px;
+  text-decoration: none;
+  color: var(--text-white);
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+
+nav a {
+  text-decoration: none;
+  color: var(--text-white);
+  font-size: 14px;
+  letter-spacing: 1px;
+}
+
+nav a.btn-nav {
+  border: 2px solid var(--text-white);
+  padding: 8px 16px;
+}
+
+.content-area {
+  min-height: calc(100vh - 84px);
+  padding: 60px 20px;
+  box-sizing: border-box;
+}
+
+/* Homepage Hero */
+.hero-container {
+  max-width: 900px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.profile-img {
+  width: 100%;
+  max-width: 700px;
+  height: auto;
+  border-radius: 4px;
+  margin-bottom: 30px;
+}
+
+.home-links {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+
+.home-btn {
+  border: 2px solid var(--text-white);
+  color: var(--text-white);
+  padding: 12px 28px;
+  text-decoration: none;
+  font-size: 16px;
+  letter-spacing: 1px;
+  transition: background-color 0.2s ease;
+}
+
+.home-btn:hover {
+  background-color: rgba(255, 255, 255, 0.15);
+}
+
+/* Projects Grid */
+.page-title {
+  font-size: 56px;
+  font-weight: 300;
+  text-align: center;
+  margin: 0 0 40px 0;
+}
+
+.project-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  gap: 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.project-card {
+  position: relative;
+  height: 280px;
+  text-decoration: none;
+  display: block;
+  overflow: hidden;
+}
+
+.project-card img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.project-card .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: var(--card-overlay);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: background-color 0.2s ease;
+}
+
+.project-card:hover .overlay {
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+.project-card h2 {
+  color: var(--text-white);
+  font-size: 24px;
+  font-weight: normal;
+  margin: 0;
+}
+
+/* Detail Pages & About Page */
+.page-container {
+  max-width: 800px;
+  margin: 0 auto;
+  line-height: 1.7;
+  font-size: 18px;
+}
+
+.page-container img {
+  max-width: 100%;
+  height: auto;
+  margin: 20px 0;
+}
+
+.resume-btn {
+  display: inline-block;
+  background-color: var(--nav-bg);
+  color: var(--text-white);
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 4px;
+  margin-bottom: 25px;
+}
