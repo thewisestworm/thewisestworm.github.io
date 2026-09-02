@@ -2,8 +2,8 @@
    GLOBAL VARIABLES & RESET
    ========================================================================== */
 :root {
-  --nav-bg: #3b4d61;             /* Dark blue navigation bar */
-  --content-bg: #8c9eae;         /* Light blue-gray content area */
+  --nav-bg: #3b4d61;             /* Dark blue header */
+  --content-bg: #8c9eae;         /* Light slate-blue content background */
   --text-white: #ffffff;
   --card-overlay: rgba(0, 0, 0, 0.35);
 }
@@ -16,7 +16,7 @@ body {
   margin: 0;
   padding: 0;
   font-family: Arial, Helvetica, sans-serif;
-  background-color: var(--content-bg);
+  background-color: var(--nav-bg);
   color: var(--text-white);
   line-height: 1.6;
 }
@@ -36,7 +36,7 @@ header .site-title {
   font-family: 'Niconne', cursive, Georgia, serif;
   font-size: 32px;
   text-decoration: none;
-  color: var(--text-white);
+  color: #000000;
 }
 
 nav ul {
@@ -50,14 +50,14 @@ nav ul {
 
 nav a {
   text-decoration: none;
-  color: var(--text-white);
+  color: #000000;
   font-size: 13px;
   letter-spacing: 1px;
   font-weight: 600;
 }
 
 nav a.btn-nav {
-  border: 1px solid var(--text-white);
+  border: 1px solid #000000;
   padding: 6px 14px;
 }
 
@@ -153,12 +153,11 @@ img.hero-headshot {
 }
 
 .page-title {
-  font-size: 64px;
+  font-size: 56px;
   font-weight: 300;
   text-align: center;
   margin: 0 0 50px 0;
   color: var(--text-white);
-  font-family: Georgia, serif;
 }
 
 .project-grid {
@@ -176,6 +175,7 @@ img.hero-headshot {
   text-decoration: none;
   display: block;
   overflow: hidden;
+  background-color: #2c3a4a; /* Fallback color before image loads */
 }
 
 .project-card img {
@@ -211,7 +211,7 @@ img.hero-headshot {
 }
 
 /* ==========================================================================
-   ABOUT ME & INDIVIDUAL PROJECT DETAIL PAGES
+   ABOUT ME & DETAIL PAGES
    ========================================================================== */
 .page-container {
   max-width: 800px;
@@ -227,7 +227,6 @@ img.hero-headshot {
   font-size: 40px;
   font-weight: 300;
   margin-top: 0;
-  font-family: Georgia, serif;
 }
 
 .page-container img {
@@ -239,8 +238,8 @@ img.hero-headshot {
 
 .resume-btn {
   display: inline-block;
-  background-color: var(--nav-bg);
-  color: var(--text-white);
+  background-color: #ffffff;
+  color: #000000;
   padding: 10px 20px;
   text-decoration: none;
   font-weight: 600;
@@ -268,6 +267,6 @@ img.hero-headshot {
   }
 
   .page-title {
-    font-size: 44px;
+    font-size: 40px;
   }
 }
