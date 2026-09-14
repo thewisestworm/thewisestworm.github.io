@@ -6,7 +6,7 @@ title: Accumulator
 <!-- Dark Top Banner with Title and Subtitle -->
 <div class="projects-header">
   <h1 class="page-title">Accumulator</h1>
-  <p class="project-subtitle">"Formula SAE Electric High-Voltage Energy Storage System"</p>
+  <p class="project-subtitle">Formula SAE Electric High-Voltage Energy Storage System</p>
 </div>
 
 <!-- Main Content Area -->
