@@ -6,7 +6,7 @@ title: Bionic Hand
 <!-- Dark Top Banner with Title and Subtitle -->
 <div class="projects-header">
   <h1 class="page-title">Bionic Hand</h1>
-  <p class="project-subtitle">"Custom Mechanical Prosthetic & Multi-Material Iteration"</p>
+  <p class="project-subtitle">SUBTITLE HERE</p>
 </div>
 
 <!-- Main Content Area -->
