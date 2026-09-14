@@ -280,3 +280,119 @@ img.hero-headshot {
     font-size: 40px;
   }
 }
+
+/* --- PROJECT DETAIL PAGE STYLES --- */
+
+.project-subtitle {
+  font-size: 16px;
+  font-style: italic;
+  color: #e0e6ed;
+  margin: 10px 0 0 0;
+}
+
+.project-detail-body {
+  background-color: var(--content-bg);
+  padding: 50px 20px 80px 20px;
+}
+
+.project-content-container {
+  max-width: 900px;
+  width: 100%;
+  margin: 0 auto;
+  color: var(--text-white);
+}
+
+.intro-text {
+  font-size: 15px;
+  line-height: 1.7;
+  text-align: center;
+  max-width: 800px;
+  margin: 0 auto 50px auto;
+  color: #e0e6ed;
+}
+
+.feature-row {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+  margin-bottom: 60px;
+}
+
+.feature-row.reverse {
+  flex-direction: row-reverse;
+}
+
+.feature-image {
+  flex: 1;
+  max-width: 420px;
+}
+
+.feature-image img {
+  width: 100%;
+  height: auto;
+  display: block;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+.feature-text {
+  flex: 1;
+  font-size: 14px;
+  line-height: 1.7;
+  color: #f0f4f8;
+}
+
+.feature-text p {
+  margin-top: 0;
+  margin-bottom: 20px;
+}
+
+/* Skills Section */
+.skills-section {
+  text-align: center;
+  margin-top: 80px;
+  border-top: 1px solid rgba(255, 255, 255, 0.2);
+  padding-top: 40px;
+}
+
+.skills-heading {
+  font-size: 14px;
+  letter-spacing: 2px;
+  font-weight: 600;
+  background-color: #000000;
+  color: #ffffff;
+  display: inline-block;
+  padding: 8px 24px;
+  margin-bottom: 30px;
+}
+
+.skills-list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+}
+
+.skill-pill {
+  border: 1px solid #ffffff;
+  color: #ffffff;
+  background-color: transparent;
+  padding: 10px 30px;
+  font-size: 13px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  min-width: 280px;
+  text-align: center;
+}
+
+/* Responsive layout for mobile */
+@media (max-width: 768px) {
+  .feature-row, .feature-row.reverse {
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .feature-image {
+    max-width: 100%;
+  }
+}
