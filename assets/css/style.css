@@ -402,3 +402,32 @@ img.hero-headshot {
     max-width: 100%;
   }
 }
+
+/* ==========================================================================
+   TEXT-ONLY PROJECT CARDS
+   ========================================================================== */
+.project-card-text {
+  background-color: var(--nav-bg); /* #3b4d61 dark blue */
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 280px;
+  padding: 30px;
+  text-decoration: none;
+  text-align: center;
+  transition: background-color 0.2s ease, border-color 0.2s ease;
+}
+
+.project-card-text:hover {
+  background-color: #485c74; /* Slightly lighter on hover */
+  border-color: rgba(255, 255, 255, 0.35);
+}
+
+.project-card-text h2 {
+  color: var(--text-white);
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 1.5;
+  margin: 0;
+}
