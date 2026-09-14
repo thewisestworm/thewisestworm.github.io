@@ -6,7 +6,7 @@ title: Steering Wheel
 <!-- Dark Top Banner with Title and Subtitle -->
 <div class="projects-header">
   <h1 class="page-title">Steering Wheel</h1>
-  <p class="project-subtitle">"This is an ongoing project"</p>
+  <p class="project-subtitle">SUBTITLE HERE</p>
 </div>
 
 <!-- Main Content Area -->
