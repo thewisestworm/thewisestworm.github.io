@@ -28,7 +28,7 @@ title: Accumulator
         <p>
           Each module is a 12s5p layout of lithium-ion cells, resulting in a nominal voltage of 43.2 V and a maximum voltage of 50.4 V. Eight modules were connected in series within the accumulator, resulting in a total pack voltage of 345.6 V nominal and 403.2 V at full charge. I used Garolite plates on the top and bottom for rigidity, with machined polycarbonate side panels that located and supported the cells.
         </p>
-        </p>
+        <p>
         I integrated custom sensing PCBs on both sides of the module to provide cell voltage sensing and temperature monitoring. I also designed custom copper busbars that were bonded to the PCB surface and spot welded to the cells using nickel strips placed on top of the copper to improve weld consistency.
         </p>
       </div>
@@ -56,7 +56,7 @@ title: Accumulator
         <img src="{{ '/assets/images/copper-busbars.jpg' | relative_url }}" alt="Copper Busbar Manufacturing">
       </div>
       <div class="feature-text">
-        <p><strong>Custom Copper Busbar Fabrication</strong></p>
+        <p><strong>Manufacturing</strong></p>
         <p>
           To manufacture the busbars I tested many setups until I found a reliable way to hold and machine the thin copper sheet. I ended on a process where I covered the work surface and copper with blue painter’s tape, then used 3M Super 77 between the tape to hold the copper in place during machining. After machining the busbar shapes, I removed the tape, flattened the copper, and used custom 3D-printed jigs to add thermal relief bends to the busbars.
         </p>
