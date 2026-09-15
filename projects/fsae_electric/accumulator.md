@@ -44,15 +44,18 @@ title: Accumulator
       </div>
     </div>
 
-    <!-- Section 3: Manufacturing -->
+<!-- Section 3: Manufacturing -->
     <div class="feature-row">
       <div class="feature-image">
-        <img src="{{ '/assets/images/accumulator-hdpe-walls.jpg' | relative_url }}" alt="HDPE mounting walls">
+        <img src="{{ '/assets/images/copper-busbars.jpg' | relative_url }}" alt="Copper Busbar Manufacturing">
       </div>
       <div class="feature-text">
-        <p><strong>Manufacturing</strong></p>
+        <p><strong>Custom Copper Busbar Fabrication</strong></p>
         <p>
-          Fabrication of the end segment mounting walls utilized High-Density Polyethylene (HDPE) to provide exceptional mechanical toughness and high-voltage electrical insulation. Every component was machined and assembled with precise tolerances to guarantee a tight, waterproof final enclosure.
+          To manufacture custom copper busbars for the accumulator module, I developed a precise CNC router workflow utilizing blue painters tape and 3M Super 77 spray adhesive to secure copper stock flat against a spoil board[cite: 1].
+        </p>
+        <p>
+          Using a 30-degree engraving bit with tool zeroing verified via a continuity multimeter check, the paths were machined with carefully calibrated kerf depths[cite: 1]. After machining, the finished copper components were peeled, cleaned of tape residue, and flattened using round stock to achieve clean, ready-to-integrate battery busbars[cite: 1].
         </p>
       </div>
     </div>
