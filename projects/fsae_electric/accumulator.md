@@ -26,17 +26,23 @@ title: Accumulator
       <div class="feature-text">
         <p><strong>Module Design</strong></p>
         <p>
-          The internal architecture features precision cell matrices optimized for space utilization and low-resistance current flow. Custom busbar routing and secure module packaging ensure the system withstands severe vehicle G-forces while maintaining structural rigidity.
+          Each module is a 12s5p layout of lithium-ion cells, resulting in a nominal voltage of 43.2 V and a maximum voltage of 50.4 V. Eight modules were connected in series within the accumulator, resulting in a total pack voltage of 345.6 V nominal and 403.2 V at full charge. I used Garolite plates on the top and bottom for rigidity, with machined polycarbonate side panels that located and supported the cells.
+        </p>
+        </p>
+        I integrated custom sensing PCBs on both sides of the module to provide cell voltage sensing and temperature monitoring. I also designed custom copper busbars that were bonded to the PCB surface and spot welded to the cells using nickel strips placed on top of the copper to improve weld consistency.
         </p>
       </div>
     </div>
 
-    <!-- Section 2: Enclosure and Mounting (Reversed) -->
+    <!-- Section 2: Enclosure and Mounting -->
     <div class="feature-row reverse">
       <div class="feature-text">
         <p><strong>Enclosure and Mounting</strong></p>
         <p>
-          The complete accumulator housing provides robust containment and structural integration with the vehicle chassis. The assembly features an exploded-view layout that carefully layers internal electrical components, safety fusing, and environmental sealing.
+          I designed rails for easy installation of the modules into the accumulator. The rails were made from UHMW because of its low coefficient of friction, allowing the modules to slide in and out easily while maintaining a tight fit. The pack-level busbars were located in the center of the accumulator, and a module only connected to the busbars once it was fully seated. This meant that removing a module for maintenance immediately disconnected it from the rest of the pack.
+        </p>
+        <p>
+          I designed the accumulator around a sheet-bent aluminum enclosure with the GLV box mounted on top. The HV busbars passed directly through the enclosure and into the GLV box, keeping them protected from accidental contact. This also minimized the amount of HV wiring needed between different areas of the vehicle.
         </p>
       </div>
       <div class="feature-image">
@@ -52,10 +58,10 @@ title: Accumulator
       <div class="feature-text">
         <p><strong>Custom Copper Busbar Fabrication</strong></p>
         <p>
-          To make the custom copper busbars for the accumulator, I set up a CNC routing workflow using blue painters tape and 3M Super 77 spray adhesive to hold the thin copper stock totally flat on the table. 
+          To manufacture the busbars I tested many setups until I found a reliable way to hold and machine the thin copper sheet. I ended on a process where I covered the work surface and copper with blue painter’s tape, then used 3M Super 77 between the tape to hold the copper in place during machining. After machining the busbar shapes, I removed the tape, flattened the copper, and used custom 3D-printed jigs to add thermal relief bends to the busbars.
         </p>
         <p>
-          I used a 30-degree engraving bit, zeroing the Z-axis by running a continuity check with a multimeter. After dialing in the correct kerf depth and machining the paths, I removed the tape and rolled the pieces flat with round stock so they were ready to press into their final shapes for thermal relief.
+          I machined the module rails out of UHMW on a CNC Mill. I found that UHMW deformed from machining heat, which made tight tolerances difficult to achieve. After making these parts, I read up more in DFM and applied what I learned to the polycarbonate module sides, which I machined as a 1-operation part from a single sheet on a CNC Router.
         </p>
       </div>
     </div>
