@@ -6,7 +6,6 @@ title: Bionic Finger
 <!-- Dark Top Banner with Title and Subtitle -->
 <div class="projects-header">
   <h1 class="page-title">Bionic Finger</h1>
-  <p class="project-subtitle">SUBTITLE HERE</p>
 </div>
 
 <!-- Main Content Area -->
