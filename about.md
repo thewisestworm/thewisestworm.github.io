@@ -51,7 +51,7 @@ title: About Me
       <img src="{{ '/assets/images/Headshot.jpg' | relative_url }}" alt="Headshot" class="about-headshot">
       
       <div class="about-buttons">
-        <a href="{{ '/assets/Sage Ugras Resume - Technical.pdf' | relative_url }}" target="_blank" class="about-btn">Resume</a>
+        <a href="{{ '/assets/Sage_Ugras_Resume.pdf' | relative_url }}" target="_blank" class="about-btn">Resume</a>
         <a href="www.linkedin.com/in/sage-ugras-bb1275241" target="_blank" rel="noopener noreferrer" class="about-btn">LinkedIn</a>
       </div>
     </div>
