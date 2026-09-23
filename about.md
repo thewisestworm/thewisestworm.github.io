@@ -52,7 +52,7 @@ title: About Me
       
       <div class="about-buttons">
         <a href="{{ '/assets/Sage_Ugras_Resume.pdf' | relative_url }}" target="_blank" class="about-btn">Resume</a>
-        <a href="www.linkedin.com/in/sage-ugras-bb1275241" target="_blank" rel="noopener noreferrer" class="about-btn">LinkedIn</a>
+        <a href="https://www.linkedin.com/in/sage-ugras-bb1275241" target="_blank" rel="noopener noreferrer" class="about-btn">LinkedIn</a>
       </div>
     </div>
 
