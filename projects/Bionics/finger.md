@@ -14,7 +14,7 @@ title: Bionic Finger
 
     <!-- Intro Text Paragraph -->
     <p class="intro-text">
-      The Bionic Finger project started in August of 2022 as part of an ongoing prosthetic hand initiative. Over four distinct generations of prototyping, I evolved the mechanical linkages, actuation methods, and material choices to balance aesthetic realism with home-printable simplicity and durability.
+      The Bionic Finger project started in August of 2022 as part of a larger prosthetic hand project. This project has been passed off to students at Worcester Polytechnic Institute to learn how to design bionic limbs. 
     </p>
 
     <!-- Section 1: Initial Design (T-Belts) -->
