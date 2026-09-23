@@ -26,10 +26,10 @@ title: Bionic Finger
       <div class="feature-text">
         <p><strong>Generation 1: T-Belt Concept</strong></p>
         <p>
-          The original design used small T-belts (similar to those used on 3D printers) between each finger section so the joint would move in a fluid motion driven by a motor or servo. 
+          The original design used small T-belts (similar to those used on 3D printers) between each finger section so the joints would move in a fluid motion driven by a servo. 
         </p>
         <p>
-          While it looked like a natural finger, it failed mechanically: components that modeled successfully in Onshape did not translate effectively to real-world physical assembly, prompting a complete redesign.
+          While it looked like a natural finger, it had a few mechanical failures. Many of the components in the assembly were quite small and difficult to manufacture and assemble using a basic 3D printer. Because the eventual use-case was an open source hand for people to make at home, this design was not ideal.
         </p>
       </div>
     </div>
@@ -39,10 +39,7 @@ title: Bionic Finger
       <div class="feature-text">
         <p><strong>Generation 2: Lead Screw & Complex Linkages</strong></p>
         <p>
-          The second version was mechanically intricate, using a small DC motor with a lead screw attached to the "knuckle" to translate linear motion into fluid bending. 
-        </p>
-        <p>
-          Initial prints were brittle, which I solved by testing various materials and ultimately switching to PETG for its balance of flexibility and strength, alongside thickening each structural member.
+          The second version of the finger was more mechanically intricate, using a small DC motor with a lead screw attached to the "knuckle" to translate linear motion into bending. This design was not meant as a prosthetic, rather I used it as a way to learn how to use linkages in my designs.  
         </p>
       </div>
       <div class="feature-image">
@@ -58,10 +55,10 @@ title: Bionic Finger
       <div class="feature-text">
         <p><strong>Generation 3: Simplified Pin Joints</strong></p>
         <p>
-          Finished in May 2023, this design aimed to simplify the complexity of the previous iteration. It combined elements from earlier builds into a home-printable design using basic 3D printing capabilities and a limited budget.
+          In May 2023, I finished the first fully functional design of the bionic finger. I aimed to simplify the complexity of the previous iterations by using fishing line instead of t-belts and a realistic yet simplified aesthetic.
         </p>
         <p>
-          It utilized a simple pin-insertion joint mechanism for easy assembly and scaling, constructed from PETG structural segments with slip-on TPU covers for padding and realistic aesthetics.
+          The design also utilized a simple pin-insertion joint mechanism for easy assembly and had slip-on TPU covers for padding on the finger pads.
         </p>
       </div>
     </div>
@@ -71,10 +68,10 @@ title: Bionic Finger
       <div class="feature-text">
         <p><strong>Generation 4: Final Optimized Iteration</strong></p>
         <p>
-          The fourth and final design streamlined the mechanism even further to maximize reliability and ease of fabrication. 
+          In the fourth and final design, I simplified the mechanism even further to maximize reliability and ease of manufacturing. 
         </p>
         <p>
-          This version refined the pin-joint tolerances and integrated tendon/cable routing directly into the structural core, optimizing the finger for seamless integration into a complete prosthetic hand assembly while maintaining low part counts and high durability.
+          This version removed the pin-joint and instead replaced the entire finger print with high-infill TPU that thinned out at the bending joints. I kept the fishing line through the finger to allow for bending control with a servo. By creating the finger as one part, there was virtually no assembly time and all fingers for a hand couple be printed on one print bed without supports.
         </p>
       </div>
       <div class="feature-image">
@@ -89,7 +86,6 @@ title: Bionic Finger
         <span class="skill-pill">RAPID PROTOTYPING</span>
         <span class="skill-pill">COMPUTER AIDED DESIGN (ONSHAPE)</span>
         <span class="skill-pill">3D PRINTING & MATERIAL SELECTION</span>
-        <span class="skill-pill">MECHANICAL POST-PROCESSING</span>
       </div>
     </div>
 
