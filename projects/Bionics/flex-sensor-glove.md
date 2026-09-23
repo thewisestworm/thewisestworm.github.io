@@ -15,7 +15,7 @@ title: Flex Sensor Glove
 
     <!-- Single Section Text -->
     <p class="intro-text" style="text-align: left; max-width: 900px; margin: 0 auto 50px auto;">
-      I built this flex sensor glove back in late 2020 when I first started experimenting with prosthetic hands and fingers. I needed a way to control my hand prosthesis designs using an actual human hand, so I put this together to serve as a physical interface. Along the way, I had to dive into how different components worked, figure out proper soldering, and troubleshoot a sensor that didn't end up working out of the box. Putting this glove together was actually my entry point into writing Arduino code and working with circuit boards for the first time.
+      I built this flex sensor glove back in late 2020 when I first started experimenting with prosthetic hands and fingers. I needed a way to control my hand prosthesis designs using an actual human hand, so I put this together to serve as a physical interface. Along the way, I had to dive into how different components worked, figure out proper soldering, and troubleshoot a sensor that didn't end up working out of the box. Putting this glove together was my entry point into writing Arduino code and working with breadboards.
     </p>
 
     <!-- Image Display for the Section -->
@@ -26,7 +26,7 @@ title: Flex Sensor Glove
       <div class="feature-text">
         <p><strong>Hardware & Code Integration</strong></p>
         <p>
-          The final setup maps natural finger movement to the microcontroller, giving me a hands-on test rig to drive prototype finger designs directly from my own hand.
+          The final setup maps natural finger movement to the microcontroller, giving me a hands-on way to drive prototype finger designs directly from my own hand.
         </p>
       </div>
     </div>
