@@ -48,11 +48,11 @@ title: About Me
 
     <!-- Right Column: Headshot and Action Buttons -->
     <div class="about-sidebar">
-      <img src="{{ '/assets/images/headshot.jpg' | relative_url }}" alt="Headshot" class="about-headshot">
+      <img src="{{ '/assets/images/Headshot.jpg' | relative_url }}" alt="Headshot" class="about-headshot">
       
       <div class="about-buttons">
-        <a href="{{ '/assets/resume.pdf' | relative_url }}" target="_blank" class="about-btn">resume</a>
-        <a href="https://linkedin.com/in/your-profile" target="_blank" rel="noopener noreferrer" class="about-btn">on linkedin</a>
+        <a href="{{ '/assets/Sage Ugras Resume - Technical.pdf' | relative_url }}" target="_blank" class="about-btn">Resume</a>
+        <a href="www.linkedin.com/in/sage-ugras-bb1275241" target="_blank" rel="noopener noreferrer" class="about-btn">LinkedIn</a>
       </div>
     </div>
 
