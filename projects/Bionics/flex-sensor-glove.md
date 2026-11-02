@@ -21,7 +21,7 @@ title: Flex Sensor Glove
     <!-- Image Display for the Section -->
     <div class="feature-row" style="border-top: 1px solid #e0e0e0;">
       <div class="feature-image">
-        <img src="{{ '/assets/images/glove-assembled.jpg' | relative_url }}" alt="Flex Sensor Glove Assembly">
+        <img src="{{ '/assets/images/flex-glove.jpg' | relative_url }}" alt="Flex Sensor Glove Assembly">
       </div>
       <div class="feature-text">
         <p><strong>Hardware & Code Integration</strong></p>
