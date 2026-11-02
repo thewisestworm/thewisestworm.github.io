@@ -21,7 +21,7 @@ title: Accumulator
     <!-- Section 1: Module Design -->
     <div class="feature-row">
       <div class="feature-image">
-        <img src="{{ '/assets/images/accumulator-segment.jpg' | relative_url }}" alt="Battery module design">
+        <img src="{{ '/assets/images/module-bottom.jpg' | relative_url }}" alt="Battery module design">
       </div>
       <div class="feature-text">
         <p><strong>Module Design</strong></p>
@@ -46,14 +46,14 @@ title: Accumulator
         </p>
       </div>
       <div class="feature-image">
-        <img src="{{ '/assets/images/accumulator-exploded.jpg' | relative_url }}" alt="Exploded view of the accumulator">
+        <img src="{{ '/assets/images/acc-enclosure.jpg.jpg' | relative_url }}" alt="Accumulator Enclosure">
       </div>
     </div>
 
 <!-- Section 3: Manufacturing -->
     <div class="feature-row">
       <div class="feature-image">
-        <img src="{{ '/assets/images/copper-busbars.jpg' | relative_url }}" alt="Copper Busbar Manufacturing">
+        <img src="{{ '/assets/images/cut-busbars.jpg' | relative_url }}" alt="Copper Busbar Manufacturing">
       </div>
       <div class="feature-text">
         <p><strong>Manufacturing</strong></p>
