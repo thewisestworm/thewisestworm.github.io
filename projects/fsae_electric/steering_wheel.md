@@ -47,7 +47,7 @@ title: Steering Wheel
         </p>
       </div>
       <div class="feature-image">
-        <img src="{{ '/assets/images/steering-paddles.jpg' | relative_url }}" alt="Paddle Assembly">
+        <img src="{{ '/assets/images/PXL_20250426_212547671.jpg' | relative_url }}" alt="Paddle Assembly">
       </div>
     </div>
 
