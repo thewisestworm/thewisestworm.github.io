@@ -21,7 +21,7 @@ title: Aero Manufacturing
     <!-- Section 1: Custom Hot-Wire Foam Cutter -->
     <div class="feature-row">
       <div class="feature-image">
-        <img src="{{ '/assets/images/aero-hotwire.jpg' | relative_url }}" alt="Custom hot-wire foam cutter">
+        <img src="{{ '/assets/images/hot-wire.jpg' | relative_url }}" alt="Custom hot-wire foam cutter">
       </div>
       <div class="feature-text">
         <p><strong>Custom Hot-Wire Foam Cutter</strong></p>
@@ -34,7 +34,7 @@ title: Aero Manufacturing
     <!-- Section 2: Vacuum Resin Infusion -->
     <div class="feature-row">
       <div class="feature-image">
-        <img src="{{ '/assets/images/aero-infusion.jpg' | relative_url }}" alt="Carbon fiber vacuum resin infusion">
+        <img src="{{ '/assets/images/resin-infusion.jpg' | relative_url }}" alt="Carbon fiber vacuum resin infusion">
       </div>
       <div class="feature-text">
         <p><strong>Vacuum Resin Infusion</strong></p>
