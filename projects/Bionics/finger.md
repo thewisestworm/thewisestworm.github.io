@@ -20,7 +20,7 @@ title: Bionic Finger
     <!-- Section 1: Initial Design (T-Belts) -->
     <div class="feature-row">
       <div class="feature-image">
-        <img src="{{ '/assets/images/finger-v1.jpg' | relative_url }}" alt="Initial T-Belt Finger Design">
+        <img src="{{ '/assets/images/finger-2-cad.webp' | relative_url }}" alt="Initial T-Belt Finger Design">
       </div>
       <div class="feature-text">
         <p><strong>Generation 1: T-Belt Concept</strong></p>
