@@ -53,7 +53,7 @@ title: Accumulator
 <!-- Section 3: Manufacturing -->
     <div class="feature-row">
       <div class="feature-image">
-        <img src="{{ '/assets/images/cut-busbars.jpg' | relative_url }}" alt="Copper Busbar Manufacturing">
+        <img src="{{ '/assets/images/Screenshot 2026-11-02 142757.png' | relative_url }}" alt="Copper Busbar Manufacturing">
       </div>
       <div class="feature-text">
         <p><strong>Manufacturing</strong></p>
