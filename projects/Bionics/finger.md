@@ -42,7 +42,7 @@ title: Bionic Finger
         </p>
       </div>
       <div class="feature-image">
-        <img src="{{ '/assets/images/finger-v2.jpg' | relative_url }}" alt="Lead Screw Finger Design">
+        <img src="{{ '/assets/images/finger-1-wired.jpg' | relative_url }}" alt="Lead Screw Finger Design">
       </div>
     </div>
 
