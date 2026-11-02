@@ -21,7 +21,7 @@ title: Steering Wheel
     <!-- Row 1: Image Left, Text Right -->
     <div class="feature-row">
       <div class="feature-image">
-        <img src="{{ '/assets/images/steering-front.jpg' | relative_url }}" alt="Steering Wheel Front Face">
+        <img src="{{ '/assets/images/PXL_20250426_212537137.jpg' | relative_url }}" alt="Steering Wheel Front Face">
       </div>
       <div class="feature-text">
         <p>
