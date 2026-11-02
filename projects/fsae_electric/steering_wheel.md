@@ -54,7 +54,7 @@ title: Steering Wheel
     <!-- Row 3: Image Left, Text Right -->
     <div class="feature-row">
       <div class="feature-image">
-        <img src="{{ '/assets/images/steering-gasket.jpg' | relative_url }}" alt="Ingress Protection and Gasket">
+        <img src="{{ '/assets/images/PXL_20250221_165100485.jpg' | relative_url }}" alt="Ingress Protection and Gasket">
       </div>
       <div class="feature-text">
         <p>
