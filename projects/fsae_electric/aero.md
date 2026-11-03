@@ -15,7 +15,7 @@ title: Aero Manufacturing
 
     <!-- Intro Text Paragraph -->
     <p class="intro-text">
-      For the FSAE Electric vehicle, I engineered the composite manufacturing process for the aerodynamic package from scratch. Moving from raw foam cores to finished carbon fiber aero components required developing custom tooling, adhesive testing, and precision resin infusion techniques.
+      For the FSAE Electric vehicle, I created the composite manufacturing process for our aerodynamic package from scratch. I developed custom tools, conducted adhesive testing, and created a resin infusion setup to make our first front wing.
     </p>
 
     <!-- Section 1: Custom Hot-Wire Foam Cutter -->
@@ -35,9 +35,12 @@ title: Aero Manufacturing
         </div>
       </div>
       <div class="feature-text">
-        <p><strong>Custom Hot-Wire Foam Cutter</strong></p>
+        <p><strong>Hot-Wire Foam Cutting and Waterjet Cutting</strong></p>
         <p>
-          To achieve the exact wing core geometries required for the aerodynamic profile, I built a custom hot-wire foam cutter completely from scratch. This custom tool allowed for precise, repeatable core profiling and shaped the foundation for all composite wing elements.
+          To achieve the exact wing core geometries required for our profile, I built a custom hot-wire foam cutter completely from scratch. This custom tool allowed for precise, repeatable core profiling and shaped the foundation for all composite wing elements. To manufacture the foam elements for the wings with reasonable tolerance for assembly, I laser cut wooden profiles then cut along them to get the foam in the right shape. 
+        </p>
+        <p>
+          I also used a waterjet cutter to manufacture the aluminum wing end pieces to allow for them to mount to the body of the vehicle. 
         </p>
       </div>
     </div>
