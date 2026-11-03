@@ -25,10 +25,10 @@ title: Bionic Finger
       <div class="feature-text">
         <p><strong>Generation 1: T-Belt Concept</strong></p>
         <p>
-          The original design used small T-belts (similar to those used on 3D printers) between each finger section so the joints would move in a fluid motion driven by a servo. 
+          The original design used small T-belts (similar to those used on 3D printers) between each finger section so the joints would move in one fluid motion driven by a servo. 
         </p>
         <p>
-          While it looked like a natural finger, it had a few mechanical failures. Many of the components in the assembly were quite small and difficult to manufacture and assemble using a basic 3D printer. Because the eventual use-case was an open source hand for people to make at home, this design was not ideal.
+          While it looked like a natural finger, it had a few mechanical failures including breakage along layer lines and joint friction. Many of the components in the assembly were quite small and difficult to manufacture and assemble using a basic 3D printer. Because the eventual use-case was an open source hand for people to make at home, this design was not ideal.
         </p>
       </div>
     </div>
@@ -38,7 +38,7 @@ title: Bionic Finger
       <div class="feature-text">
         <p><strong>Generation 2: Lead Screw & Complex Linkages</strong></p>
         <p>
-          The second version of the finger was more mechanically intricate, using a small DC motor with a lead screw attached to the "knuckle" to translate linear motion into bending. This design was not meant as a prosthetic, rather I used it as a way to learn how to use linkages in my designs.  
+          The second version of the finger was more mechanically intricate, using a small DC motor with a lead screw attached to the "knuckle" to translate linear motion into bending. This design was not meant as a prosthetic, rather I used it as a way to learn how to use linkages in my designs. The finger did move as anticipated but was very brittle, causing it to break under the needed grip pressure.   
         </p>
       </div>
       <div class="feature-image">
@@ -57,7 +57,7 @@ title: Bionic Finger
           In May 2023, I finished the first fully functional design of the bionic finger. I aimed to simplify the complexity of the previous iterations by using fishing line instead of t-belts and a realistic yet simplified aesthetic.
         </p>
         <p>
-          The design also utilized a simple pin-insertion joint mechanism for easy assembly and had slip-on TPU covers for padding on the finger pads.
+          The design also utilized a simple pin joint mechanism for easy assembly and had slip-on TPU covers for padding on the finger pads. This iteration was the easiest to assemble so far and worked as intended, although the problem of joint friction still persisted. 
         </p>
       </div>
     </div>
