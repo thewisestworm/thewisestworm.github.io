@@ -55,7 +55,15 @@ title: Steering Wheel
         </p>
       </div>
       <div class="feature-image">
-        <img src="{{ '/assets/images/PXL_20250426_212547671.jpg' | relative_url }}" alt="Paddle Assembly">
+        <!-- Slideshow Container -->
+        <div class="project-slideshow">
+          <div class="slide">
+            <img src="{{ '/assets/images/PXL_20250426_212547671.jpg' | relative_url }}" alt="Paddle Assembly">
+          </div>
+          <div class="slide">
+            <img src="{{ '/assets/images/paddle cad.png' | relative_url }}" alt="Paddle CAD">
+          </div>
+        </div>
       </div>
     </div>
 
