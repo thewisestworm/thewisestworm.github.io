@@ -49,7 +49,7 @@ title: Bionic Finger
     <!-- Section 3: Third Design (Pin Joints & PETG/TPU) -->
     <div class="feature-row">
       <div class="feature-image">
-        <img src="{{ '/assets/images/finger-v3.jpg' | relative_url }}" alt="Simplified Pin-Joint Finger">
+        <img src="{{ '/assets/images/Screenshot 2026-11-02 161946.png' | relative_url }}" alt="Simplified Pin-Joint Finger">
       </div>
       <div class="feature-text">
         <p><strong>Generation 3: Simplified Pin Joints</strong></p>
