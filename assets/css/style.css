@@ -543,6 +543,8 @@ img.hero-headshot {
   }
   
   .feature-image {
-    max-width: 100%;
-  }
+  flex: 1;
+  max-width: 420px;
+  min-width: 0; /* <-- Add this line so the scrollable slideshow stays contained */
+   }
 }
