@@ -61,7 +61,6 @@ title: Accumulator
           </div>
         </div>
       </div>
-      </div>
     </div>
 
 <!-- Section 3: Manufacturing -->
@@ -83,7 +82,6 @@ title: Accumulator
           </div>
         </div>
       </div>
-    
       <div class="feature-text">
         <p><strong>Manufacturing</strong></p>
         <p>
