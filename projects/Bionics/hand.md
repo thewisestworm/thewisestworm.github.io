@@ -15,7 +15,7 @@ title: Bionic Hand
     <!-- Section 1: Initial Design -->
     <div class="feature-row">
       <div class="feature-image">
-        <img src="{{ '/assets/images/bionic-hand-v1.jpg' | relative_url }}" alt="Initial Bionic Hand Design">
+        <img src="{{ '/assets/images/Screenshot 2026-11-02 162759.png' | relative_url }}" alt="Initial Bionic Hand Design">
       </div>
       <div class="feature-text">
         <p><strong>Initial Design (Pin-Joint Fingers) </strong></p>
