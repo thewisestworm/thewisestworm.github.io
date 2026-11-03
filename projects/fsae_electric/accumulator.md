@@ -46,7 +46,7 @@ title: Accumulator
         </p>
       </div>
       <div class="feature-image">
-        <img src="{{ '/assets/images/acc-enclosure.jpg.jpg' | relative_url }}" alt="Accumulator Enclosure">
+        <img src="{{ '/assets/images/Screenshot 2026-11-02 161000.png' | relative_url }}" alt="Accumulator Enclosure">
       </div>
     </div>
 
