@@ -15,7 +15,7 @@ title: Steering Wheel
 
     <!-- Intro Text Paragraph -->
     <p class="intro-text">
-      My most recent project with the Formula SAE Electric team has been the design, manufacturing, and testing of the steering wheel. In the 2023-24 school year, a steering wheel was designed for the car but was never fully built and had many design flaws. Because of this, I decided to completely re-design the steering wheel from scratch.
+      My most recent project with the Formula SAE Electric team was the design, manufacturing, and testing of the steering wheel. In the 2023-24 school year, a steering wheel was designed for the car but was never completed and didn't integrate any electrical components. Because of this, I decided to re-design the steering wheel from scratch.
     </p>
 
     <!-- Row 1: Image Left, Text Right -->
