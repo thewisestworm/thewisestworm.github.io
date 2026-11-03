@@ -27,13 +27,10 @@ title: Steering Wheel
             <img src="{{ '/assets/images/PXL_20250426_212537137.jpg' | relative_url }}" alt="Steering Wheel Front Face">
           </div>
           <div class="slide">
-            <img src="{{ '/assets/images/another-image-1.jpg' | relative_url }}" alt="Steering Wheel Back View">
-          </div>
-          <div class="slide">
-            <img src="{{ '/assets/images/another-image-2.jpg' | relative_url }}" alt="Steering Wheel PCB Assembly">
+            <img src="{{ '/assets/images/Screenshot 2026-11-03 104228.png' | relative_url }}" alt="Steering Wheel Back View">
           </div>
         </div>
-        <p class="slideshow-hint">Swipe or scroll to see more angles →</p>
+        <p class="slideshow-hint">Swipe or scroll to see more →</p>
       </div>
       <div class="feature-text">
         <p>
