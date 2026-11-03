@@ -45,9 +45,9 @@ title: Bionic Hand
     <div class="skills-section">
       <h3 class="skills-heading">MAIN SKILLS</h3>
       <div class="skills-list">
-        <span class="skill-pill">MECHANICAL DESIGN & CAD</span>
-        <span class="skill-pill">MULTI-MATERIAL 3D PRINTING (PLA/TPU)</span>
-        <span class="skill-pill">TENDON-DRIVEN ACTUATION</span>
+        <span class="skill-pill">MECHANICAL DESIGN</span>
+        <span class="skill-pill">DFM & DFA</span>
+        <span class="skill-pill">3D PRINTING</span>
         <span class="skill-pill">PROTOTYPE ITERATION & TESTING</span>
       </div>
     </div>
