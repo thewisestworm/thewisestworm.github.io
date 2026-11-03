@@ -82,10 +82,10 @@ title: Steering Wheel
     <div class="skills-section">
       <h3 class="skills-heading">MAIN SKILLS</h3>
       <div class="skills-list">
-        <span class="skill-pill">COMPUTER AIDED DESIGN</span>
+        <span class="skill-pill">COMPUTER AIDED DESIGN (SOLIDWORKS)</span>
         <span class="skill-pill">RAPID PROTOTYPING</span>
         <span class="skill-pill">MECHANICAL TESTING</span>
-        <span class="skill-pill">MECHANICAL PCB ARRANGEMENT</span>
+        <span class="skill-pill">PCB MECHANICAL INTEGRATION</span>
       </div>
     </div>
 
