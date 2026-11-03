@@ -360,7 +360,53 @@ img.hero-headshot {
   background-color: #000000;
   color: #ffffff;
 }
+/* ==========================================================================
+   PROJECT IMAGE SLIDESHOW / CAROUSEL
+   ========================================================================== */
+.project-slideshow {
+  display: flex;
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+  gap: 10px;
+  width: 100%;
+  border-radius: 4px;
+  scrollbar-width: thin; /* For Firefox */
+  scrollbar-color: rgba(255, 255, 255, 0.4) transparent;
+}
 
+/* Custom scrollbar styling for Chrome/Safari/Edge */
+.project-slideshow::-webkit-scrollbar {
+  height: 6px;
+}
+.project-slideshow::-webkit-scrollbar-track {
+  background: rgba(0, 0, 0, 0.1);
+  border-radius: 3px;
+}
+.project-slideshow::-webkit-scrollbar-thumb {
+  background: rgba(255, 255, 255, 0.4);
+  border-radius: 3px;
+}
+
+.project-slideshow .slide {
+  flex: 0 0 100%; /* Takes up 100% of the slideshow width per slide */
+  scroll-snap-align: start;
+}
+
+.project-slideshow .slide img {
+  width: 100%;
+  height: auto;
+  display: block;
+  border: 1px solid #d0d0d0;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+
+.slideshow-hint {
+  font-size: 12px;
+  color: #666666;
+  text-align: center;
+  margin-top: 8px;
+  font-style: italic;
+}
 /* ==========================================================================
    ABOUT ME PAGE (TWO-COLUMN LAYOUT)
    ========================================================================== */
