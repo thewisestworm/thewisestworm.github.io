@@ -15,7 +15,7 @@ title: Accumulator
 
     <!-- Intro Text Paragraph -->
     <p class="intro-text">
-      As the mechanical designer for the FSAE Electric accumulator, I engineered the entire high-voltage energy storage system from scratch. The design balances strict Formula SAE structural and safety rules, high vibrational loads, and precise thermal requirements.
+      I started off my time on the Formula SAE team designing the Accumulator for our 2023-24 competition car. When the 2024-25 season came around, I was the mechanical design lead on the team and, in addition to managing design reviews for all        new components, I also re-designed the high-voltage energy storage system. The design balances Formula SAE structural and safety rules, vibrational loads, and thermal requirements.
     </p>
 
     <!-- Section 1: Module Design -->
@@ -71,9 +71,9 @@ title: Accumulator
       <h3 class="skills-heading">MAIN SKILLS</h3>
       <div class="skills-list">
         <span class="skill-pill">HIGH-VOLTAGE BATTERY PACKAGING</span>
-        <span class="skill-pill">COMPUTER AIDED DESIGN (SIEMENS NX)</span>
+        <span class="skill-pill">COMPUTER AIDED DESIGN (SOLIDWORKS)</span>
         <span class="skill-pill">RAPID PROTOTYPING</span>
-        <span class="skill-pill">MECHANICAL TESTING</span>
+        <span class="skill-pill">MATERIALS SELECTION</span>
       </div>
     </div>
 
