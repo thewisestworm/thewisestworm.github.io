@@ -297,18 +297,19 @@ img.hero-headshot {
   min-width: 0;
 }
 
-/* Standard Single Images in Rows */
+/* Standard Single Images in Rows (Fit whole image with padding) */
 .feature-image img {
   width: 100%;
   height: 380px;
-  object-fit: cover;
+  object-fit: contain;
+  background-color: #f8f9fa;
   display: block;
   border: 1px solid #d0d0d0;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
 }
 
 /* ==========================================================================
-   PROJECT SLIDESHOW (Pure CSS Fade)
+   PROJECT SLIDESHOW (Pure CSS Fade with Contain)
    ========================================================================== */
 .project-slideshow {
   position: relative;
@@ -342,7 +343,7 @@ img.hero-headshot {
 .project-slideshow .slide img {
   width: 100%;
   height: 100%;
-  object-fit: cover;
+  object-fit: contain;
   display: block;
   border: none;
   box-shadow: none;
