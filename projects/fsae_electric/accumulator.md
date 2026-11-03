@@ -21,7 +21,12 @@ title: Accumulator
     <!-- Section 1: Module Design -->
     <div class="feature-row">
       <div class="feature-image">
-        <img src="{{ '/assets/images/module-bottom.jpg' | relative_url }}" alt="Battery module design">
+      <!-- Slideshow Container -->
+        <div class="project-slideshow">
+          <div class="slide">
+            <img src="{{ '/assets/images/module-bottom.jpg' | relative_url }}" alt="Battery module design">
+          </div>
+        </div>
       </div>
       <div class="feature-text">
         <p><strong>Module Design</strong></p>
@@ -46,15 +51,39 @@ title: Accumulator
         </p>
       </div>
       <div class="feature-image">
-        <img src="{{ '/assets/images/Screenshot 2026-11-02 161000.png' | relative_url }}" alt="Accumulator Enclosure">
+      <!-- Slideshow Container -->
+        <div class="project-slideshow">
+          <div class="slide">
+            <img src="{{ '/assets/images/Screenshot 2026-11-02 161000.png' | relative_url }}" alt="Accumulator Enclosure">
+          </div>
+          <div class="slide">
+            <img src="{{ '/assets/images/acc-enclosure.jpg' | relative_url }}" alt="Sheetmetal Enclosure">
+          </div>
+        </div>
+      </div>
       </div>
     </div>
 
 <!-- Section 3: Manufacturing -->
     <div class="feature-row">
       <div class="feature-image">
-        <img src="{{ '/assets/images/Screenshot 2026-11-02 142757.png' | relative_url }}" alt="Copper Busbar Manufacturing">
+      <!-- Slideshow Container -->
+        <div class="project-slideshow">
+          <div class="slide">
+            <img src="{{ '/assets/images/Screenshot 2026-11-02 142757.png' | relative_url }}" alt="Copper Busbar Manufacturing">
+          </div>
+          <div class="slide">
+            <img src="{{ '/assets/images/busbar-mold.jpg' | relative_url }}" alt="Copper Busbar Press">
+          </div>
+          <div class="slide">
+            <img src="{{ '/assets/images/fr4-machine.jpg' | relative_url }}" alt="FR4 Machine">
+          </div>
+          <div class="slide">
+            <img src="{{ '/assets/images/uhmw-machine.jpg' | relative_url }}" alt="UHMW Machine">
+          </div>
+        </div>
       </div>
+    
       <div class="feature-text">
         <p><strong>Manufacturing</strong></p>
         <p>
