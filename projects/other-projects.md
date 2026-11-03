@@ -12,15 +12,15 @@ title: Other Projects
 <div class="project-detail-body">
   <div class="project-content-container">
 
-    <!-- Project 1 -->
+    <!-- Electromechanical Marble Run -->
     <div class="feature-row" style="border-top: none;">
       <div class="feature-image">
         <img src="{{ '/assets/images/project-one.jpg' | relative_url }}" alt="Project One">
       </div>
       <div class="feature-text">
-        <p><strong>Project Title One</strong></p>
+        <p><strong>Electromechanical Marble Run</strong></p>
         <p>
-          Write a concise paragraph here describing what the project is, the primary tools or methods used, and what you accomplished. Keep it to a single, focused block of text that highlights the key engineering or prototyping details.
+          This project was at the intersection of engineering design and kinetic art. I designed and created an intricate electromechanical marble run that was displayed in the WPI student run makerspace. The marble run had a lead screw lifting mechanism along with loops and jumps. To assemble the marble run, I had to design custom wire bending tools and fixturing to hold parts in place during soldering. 
         </p>
       </div>
     </div>
