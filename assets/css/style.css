@@ -361,35 +361,24 @@ img.hero-headshot {
   color: #ffffff;
 }
 /* ==========================================================================
-   PROJECT IMAGE SLIDESHOW / CAROUSEL
+   AUTOMATIC FADING PROJECT SLIDESHOW
    ========================================================================== */
 .project-slideshow {
-  display: flex;
-  overflow-x: auto;
-  scroll-snap-type: x mandatory;
-  gap: 10px;
+  position: relative;
   width: 100%;
+  overflow: hidden;
   border-radius: 4px;
-  scrollbar-width: thin; /* For Firefox */
-  scrollbar-color: rgba(255, 255, 255, 0.4) transparent;
-}
-
-/* Custom scrollbar styling for Chrome/Safari/Edge */
-.project-slideshow::-webkit-scrollbar {
-  height: 6px;
-}
-.project-slideshow::-webkit-scrollbar-track {
-  background: rgba(0, 0, 0, 0.1);
-  border-radius: 3px;
-}
-.project-slideshow::-webkit-scrollbar-thumb {
-  background: rgba(255, 255, 255, 0.4);
-  border-radius: 3px;
+  background-color: #1a222c; /* Fallback background color */
 }
 
 .project-slideshow .slide {
-  flex: 0 0 100%; /* Takes up 100% of the slideshow width per slide */
-  scroll-snap-align: start;
+  display: none; /* Hide all slides by default */
+  width: 100%;
+}
+
+.project-slideshow .slide.active {
+  display: block; /* Only show the active slide */
+  animation: fadeIn 1s ease-in-out;
 }
 
 .project-slideshow .slide img {
@@ -400,12 +389,13 @@ img.hero-headshot {
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
 }
 
-.slideshow-hint {
-  font-size: 12px;
-  color: #666666;
-  text-align: center;
-  margin-top: 8px;
-  font-style: italic;
+@keyframes fadeIn {
+  from {
+    opacity: 0.3;
+  }
+  to {
+    opacity: 1;
+  }
 }
 /* ==========================================================================
    ABOUT ME PAGE (TWO-COLUMN LAYOUT)
