@@ -26,6 +26,9 @@ title: Accumulator
           <div class="slide">
             <img src="{{ '/assets/images/module-bottom.jpg' | relative_url }}" alt="Battery module design">
           </div>
+          <div class="slide">
+            <img src="{{ '/assets/images/module-otherside.jpg' | relative_url }}" alt="Battery module Top">
+          </div>
         </div>
       </div>
       <div class="feature-text">
