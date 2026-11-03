@@ -21,7 +21,18 @@ title: Aero Manufacturing
     <!-- Section 1: Custom Hot-Wire Foam Cutter -->
     <div class="feature-row">
       <div class="feature-image">
-        <img src="{{ '/assets/images/hot-wire.jpg' | relative_url }}" alt="Custom hot-wire foam cutter">
+      <!-- Slideshow Container -->
+        <div class="project-slideshow">
+          <div class="slide">
+            <img src="{{ '/assets/images/hot-wire.jpg' | relative_url }}" alt="Custom hot-wire foam cutter">
+          </div>
+          <div class="slide">
+            <img src="{{ '/assets/images/wing foam.jpg' | relative_url }}" alt="wing foam">
+          </div>
+          <div class="slide">
+            <img src="{{ '/assets/images/wing-waterjet.jpg' | relative_url }}" alt="wing waterjet">
+          </div>
+        </div>
       </div>
       <div class="feature-text">
         <p><strong>Custom Hot-Wire Foam Cutter</strong></p>
