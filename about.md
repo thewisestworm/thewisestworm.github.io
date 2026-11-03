@@ -15,34 +15,25 @@ title: About Me
     <!-- Left Column: Bio Paragraphs -->
     <div class="about-text">
       <p>
-        I am currently studying Mechanical and Materials Engineering with a minor in Creative Writing at Worcester Polytechnic Institute. I have a passion for creating products that improve the world and people's quality of life through engineering and design.
+        I have a degree in Mechanical and Materials Engineering with a minor in Creative Writing from Worcester Polytechnic Institute. I am passionate about energy storage systems, specializing in high-voltage battery design, custom test fixtures, and hands-on rapid prototyping. I enjoy taking complex hardware from early CAD concepts all the way through physical build, testing, and implementation.
       </p>
       <p>
-        My engineering journey started off with Lego Robotics in first grade, where I built a humanoid robot and made some around-the-house inventions such as a doorbell system, AirRBOT, Rubik's cube solver, and a Rube Goldberg machine.
+        My engineering journey began with LEGO robotics in elementary school and continued through high school as Mechanical Lead for my FIRST Robotics team, where I managed part manufacturing, mechanism prototyping, and established an annual rookie training competition for Silicon Valley teams.
       </p>
       <p>
-        In middle school, I joined my local high school's FIRST Robotics team. I was the only middle-school student who continued through the season. It soon started taking leadership roles on the robotics team, becoming the Human Player in 6th grade and the Safety Captain in 7th grade.
+        At WPI, I expanded my leadership impact as President of the Bionics Club and Vice President of Collablab, a student-run makerspace. In these roles, I managed rapid prototyping machinery, mentored peers on 3D printing and fabrication techniques, and fostered collaborative engineering initiatives between student organizations.
       </p>
       <p>
-        In high school, I led prototyping groups for different mechanisms on the FIRST robot, and by 10th grade, I became the Mechanical Lead. In this position, I created a new organizational system for manufacturing parts, communicated with other subsystem leaders, and made sure all components were manufactured and assembled to high standards.
+        For my capstone Major Qualifying Project (MQP), I served as Mechanical Design Lead for a multidisciplinary team building a Formula SAE Electric racecar, directly spearheading the development of both the Accumulator and Steering Wheel subsystems.
       </p>
       <p>
-        During my time on the team, I also created the Fall Jamboree competition. The purpose of the game was to train new members of the team while giving veteran members more leadership experience. This competition still takes place every year and has grown to involve multiple teams from the Silicon Valley FIRST community.
+        Professionally, I am a Mechanical Engineer on the battery test team at Wisk Aero, where I own end-to-end fixture design and test operations for high-voltage battery systems. Prior to my full-time role and internship at Wisk, I also gained valuable hands-on experience at Our Next Energy, where I designed custom R&D production line fixtures and structural pack components for grid energy storage.
       </p>
       <p>
-        While in high school, I also did a few personal projects such as designing a smart desk for use in schools, creating a flex-sensor glove, making a prototype trash-collection robot, and building an A-frame hydroponic system.
+        Outside of work, I love bringing ideas to life through personal engineering projects. In the past, I designed an electromechanical marble run kinetic art piece and fabricated custom wheelchair modifications. Currently, my primary ongoing focus is building a high-voltage electric MiniMoto from the ground up, complete with a custom battery pack design.
       </p>
       <p>
-        In college, I started to dive deeper into more personal projects. One of these projects is a bionic finger that has become part of a bionic hand and will hopefully turn into a prosthetic arm. As the Vice President of the Bionics Club at WPI, I am able to share my passion for bionics with others.
-      </p>
-      <p>
-        I am also the Vice President and E-board Member for Collablab, a makerspace run by students, for students, where I work collaboratively on projects. This space has given me access to machines, 3D printers, and other rapid prototyping resources, which I use for my projects and teach others how to properly run.
-      </p>
-      <p>
-        As my time as an undergraduate student has started to come to a close, I have been working on my Major Qualifying Project (MQP) where I am building a FSAE Electric racecar with a team of other students. I have led projects, including the Accumulator and Steering Wheel.
-      </p>
-      <p>
-        My greatest passion is designing new technologies to make the world a more accessible place for all. I hope to continue finding creative solutions to complex problems.
+        Above all, I am motivated by a desire to design and test innovative technologies that improve quality of life and help the world, particularly in the energy storage and transportation industries. I look forward to continuing to solve complex engineering challenges through creative, hands-on solutions.
       </p>
     </div>
 
