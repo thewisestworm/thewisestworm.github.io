@@ -18,7 +18,7 @@ title: Steering Wheel
       My most recent project with the Formula SAE Electric team was the design, manufacturing, and testing of the steering wheel. In the 2023-24 school year, a steering wheel was designed for the car but was never completed and didn't integrate any electrical components. Because of this, I decided to re-design the steering wheel from scratch.
     </p>
 
-  <!-- Row 1: Image Slideshow Left, Text Right -->
+    <!-- Row 1: Image Slideshow Left, Text Right -->
     <div class="feature-row">
       <div class="feature-image">
         <!-- Slideshow Container -->
@@ -30,14 +30,13 @@ title: Steering Wheel
             <img src="{{ '/assets/images/Screenshot 2026-11-03 104228.png' | relative_url }}" alt="Steering Wheel Back View">
           </div>
         </div>
-        <p class="slideshow-hint">Swipe or scroll to see more →</p>
       </div>
       <div class="feature-text">
         <p>
           The main body of the steering wheel has two main parts: the front face that houses all electrical components, and the back face that has an integrated aluminum plate to connect to the steering hub and paddles.
         </p>
         <p>
-          The finger and thumb holes use variable fillets to create optimal grip on the wheel for the driver. The thumb hole specifically is designed to be large enough for the members of the team with the largest thumbs to be able to     comfortably remove their thumbs as needed while still holding smaller thumbs in place.
+          The finger and thumb holes use variable fillets to create optimal grip on the wheel for the driver. The thumb hole specifically is designed to be large enough for the members of the team with the largest thumbs to be able to comfortably remove their thumbs as needed while still holding smaller thumbs in place.
         </p>
       </div>
     </div>
@@ -88,3 +87,25 @@ title: Steering Wheel
 
   </div>
 </div>
+
+<!-- Slideshow Control Script -->
+<script>
+  document.addEventListener("DOMContentLoaded", function() {
+    const slideshows = document.querySelectorAll(".project-slideshow");
+    
+    slideshows.forEach(slideshow => {
+      const slides = slideshow.querySelectorAll(".slide");
+      let currentIndex = 0;
+      
+      if (slides.length <= 1) return;
+      
+      slides[0].classList.add("active");
+      
+      setInterval(() => {
+        slides[currentIndex].classList.remove("active");
+        currentIndex = (currentIndex + 1) % slides.length;
+        slides[currentIndex].classList.add("active");
+      }, 3500);
+    });
+  });
+</script>
