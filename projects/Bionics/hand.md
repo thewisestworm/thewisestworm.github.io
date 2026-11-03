@@ -20,10 +20,10 @@ title: Bionic Hand
       <div class="feature-text">
         <p><strong>Initial Design (Pin-Joint Fingers) </strong></p>
         <p>
-          The first iteration of the hand used the PETG bionic finger with pin joints and integrated it with a palm and thumb design. The base material of the hand was originally PLA but then was swapped to PETG to decrease damage due to heavy use. This design also had low infill TPU (~5%) on all exposed surfaces to allow for softer, better grip.  
+          The first iteration of the hand used the PETG bionic finger with pin joints and integrated it with a palm and thumb design. The base material of the hand was originally PLA but then was swapped to PETG to decrease damage due to heavy use. This design also had low infill TPU (~5%) parts on all exposed surfaces to allow for softer, better grip.  
         </p>
         <p>
-          There were a few main issues with this initial design including the thumb closing at the incorrect angle, finger spring-back put a lot of strain on the servos and fishing line, and the design generally used a lot of parts, making it very complicated to assemble.
+          There were a few main issues with this initial design including the thumb closing at the incorrect angle, finger spring-back putting a lot of strain on the servos and fishing line, and the design generally using a lot of parts, making it very complicated to assemble.
         </p>
       </div>
     </div>
