@@ -74,7 +74,7 @@ title: Bionic Finger
         </p>
       </div>
       <div class="feature-image">
-        <img src="{{ '/assets/images/finger-v4.jpg' | relative_url }}" alt="Final Optimized Bionic Finger">
+        <img src="{{ '/assets/images/Screenshot 2026-11-02 162537.png' | relative_url }}" alt="Final Optimized Bionic Finger">
       </div>
     </div>
 
