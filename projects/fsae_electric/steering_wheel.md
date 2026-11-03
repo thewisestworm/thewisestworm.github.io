@@ -62,7 +62,15 @@ title: Steering Wheel
     <!-- Row 3: Image Left, Text Right -->
     <div class="feature-row">
       <div class="feature-image">
-        <img src="{{ '/assets/images/PXL_20250221_165100485.jpg' | relative_url }}" alt="Ingress Protection and Gasket">
+        <!-- Slideshow Container -->
+        <div class="project-slideshow">
+          <div class="slide">
+            <img src="{{ '/assets/images/PXL_20250221_165100485.jpg' | relative_url }}" alt="Ingress Protection and Gasket">
+          </div>
+          <div class="slide">
+            <img src="{{ '/assets/images/Screenshot 2026-11-03 104204.png' | relative_url }}" alt="CAD of Ingress Proection">
+          </div>
+        </div>
       </div>
       <div class="feature-text">
         <p>
