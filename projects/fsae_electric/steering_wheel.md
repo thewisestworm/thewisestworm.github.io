@@ -88,24 +88,3 @@ title: Steering Wheel
   </div>
 </div>
 
-<!-- Slideshow Control Script -->
-<script>
-  document.addEventListener("DOMContentLoaded", function() {
-    const slideshows = document.querySelectorAll(".project-slideshow");
-    
-    slideshows.forEach(slideshow => {
-      const slides = slideshow.querySelectorAll(".slide");
-      let currentIndex = 0;
-      
-      if (slides.length <= 1) return;
-      
-      slides[0].classList.add("active");
-      
-      setInterval(() => {
-        slides[currentIndex].classList.remove("active");
-        currentIndex = (currentIndex + 1) % slides.length;
-        slides[currentIndex].classList.add("active");
-      }, 3500);
-    });
-  });
-</script>
