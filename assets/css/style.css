@@ -308,7 +308,7 @@ img.hero-headshot {
 }
 
 /* ==========================================================================
-   FIXED-SIZE PROJECT SLIDESHOW / CAROUSEL
+   PURE CSS PROJECT SLIDESHOW (No JS required)
    ========================================================================== */
 .project-slideshow {
   position: relative;
@@ -327,5 +327,35 @@ img.hero-headshot {
   left: 0;
   width: 100%;
   height: 100%;
+  /* Automatically cross-fade slides infinitely using pure CSS */
   opacity: 0;
-  visibility:
+  animation: slideShowAnimation 7s infinite;
+}
+
+/* Stagger the timing for each slide */
+.project-slideshow .slide:nth-child(1) {
+  animation-delay: 0s;
+}
+
+.project-slideshow .slide:nth-child(2) {
+  animation-delay: 3.5s;
+}
+
+.project-slideshow .slide:nth-child(3) {
+  animation-delay: 7s;
+}
+
+.project-slideshow .slide img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+@keyframes slideShowAnimation {
+  0% { opacity: 0; }
+  10% { opacity: 1; }
+  45% { opacity: 1; }
+  55% { opacity: 0; }
+  100% { opacity: 0; }
+}
