@@ -37,7 +37,7 @@ title: Bionic Hand
         </p>
       </div>
       <div class="feature-image">
-        <img src="{{ '/assets/images/bionic-hand-v2.jpg' | relative_url }}" alt="Revised Bionic Hand Design">
+        <img src="{{ '/assets/images/Screenshot 2026-11-02 162456.png' | relative_url }}" alt="Revised Bionic Hand Design">
       </div>
     </div>
 
