@@ -2,8 +2,8 @@
    GLOBAL VARIABLES & RESET
    ========================================================================== */
 :root {
-  --nav-bg: #3b4d61;             /* Dark blue background */
-  --content-bg: #8c9eae;         /* Light slate-blue background */
+  --nav-bg: #3b4d61;
+  --content-bg: #8c9eae;
   --text-white: #ffffff;
   --card-overlay: rgba(0, 0, 0, 0.4);
 }
@@ -22,7 +22,7 @@ body {
 }
 
 /* ==========================================================================
-   HEADER & NAVIGATION BAR (WHITE TOP BAR)
+   HEADER & NAVIGATION BAR
    ========================================================================== */
 header {
   background-color: #ffffff;
@@ -71,8 +71,7 @@ nav a.btn-nav {
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 80px 20px 80px 20px;
-  box-sizing: border-box;
+  padding: 80px 20px;
 }
 
 .hero-layout {
@@ -222,7 +221,6 @@ img.hero-headshot {
   text-align: center;
 }
 
-/* Text-Only Project Cards */
 .project-card-text {
   background-color: var(--nav-bg);
   border: 1px solid rgba(255, 255, 255, 0.15);
@@ -250,7 +248,7 @@ img.hero-headshot {
 }
 
 /* ==========================================================================
-   PROJECT DETAIL PAGES
+   PROJECT DETAIL PAGES & ROWS
    ========================================================================== */
 .project-detail-body {
   background-color: #ffffff;
@@ -299,16 +297,18 @@ img.hero-headshot {
   min-width: 0;
 }
 
+/* Standard Single Images in Rows */
 .feature-image img {
   width: 100%;
-  height: auto;
+  height: 380px;
+  object-fit: cover;
   display: block;
   border: 1px solid #d0d0d0;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
 }
 
 /* ==========================================================================
-   PURE CSS PROJECT SLIDESHOW (No JS required)
+   PROJECT SLIDESHOW (Pure CSS Fade)
    ========================================================================== */
 .project-slideshow {
   position: relative;
@@ -327,12 +327,10 @@ img.hero-headshot {
   left: 0;
   width: 100%;
   height: 100%;
-  /* Automatically cross-fade slides infinitely using pure CSS */
   opacity: 0;
   animation: slideShowAnimation 7s infinite;
 }
 
-/* Stagger the timing for each slide */
 .project-slideshow .slide:nth-child(1) {
   animation-delay: 0s;
 }
@@ -341,15 +339,13 @@ img.hero-headshot {
   animation-delay: 3.5s;
 }
 
-.project-slideshow .slide:nth-child(3) {
-  animation-delay: 7s;
-}
-
 .project-slideshow .slide img {
   width: 100%;
   height: 100%;
   object-fit: cover;
   display: block;
+  border: none;
+  box-shadow: none;
 }
 
 @keyframes slideShowAnimation {
@@ -358,4 +354,175 @@ img.hero-headshot {
   45% { opacity: 1; }
   55% { opacity: 0; }
   100% { opacity: 0; }
+}
+
+/* ==========================================================================
+   FEATURE TEXT & SKILLS SECTION
+   ========================================================================== */
+.feature-text {
+  flex: 1;
+  font-size: 14px;
+  line-height: 1.7;
+  color: #222222;
+}
+
+.feature-text p {
+  margin-top: 0;
+  margin-bottom: 20px;
+}
+
+.skills-section {
+  text-align: center;
+  margin-top: 60px;
+  padding-top: 20px;
+}
+
+.skills-heading {
+  font-size: 13px;
+  letter-spacing: 2px;
+  font-weight: 600;
+  background-color: #000000;
+  color: #ffffff;
+  display: inline-block;
+  padding: 8px 24px;
+  margin-bottom: 30px;
+}
+
+.skills-list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+}
+
+.skill-pill {
+  border: 1px solid #000000;
+  color: #000000;
+  background-color: transparent;
+  padding: 10px 30px;
+  font-size: 13px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  min-width: 280px;
+  text-align: center;
+  transition: background-color 0.2s ease, color 0.2s ease;
+}
+
+.skill-pill:hover {
+  background-color: #000000;
+  color: #ffffff;
+}
+
+/* ==========================================================================
+   ABOUT ME & GENERAL PAGES
+   ========================================================================== */
+.about-container {
+  max-width: 1100px;
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  gap: 60px;
+  align-items: flex-start;
+}
+
+.about-text {
+  flex: 1.6;
+  font-size: 14px;
+  line-height: 1.8;
+  color: #222222;
+}
+
+.about-text p {
+  margin-top: 0;
+  margin-bottom: 20px;
+}
+
+.about-sidebar {
+  flex: 1;
+  max-width: 380px;
+  position: sticky;
+  top: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.about-headshot {
+  width: 100%;
+  height: auto;
+  display: block;
+  border: 1px solid #d0d0d0;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  margin-bottom: 25px;
+}
+
+.about-buttons {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  width: 100%;
+  max-width: 220px;
+}
+
+.about-btn {
+  background-color: #000000;
+  color: #ffffff;
+  text-align: center;
+  padding: 10px 20px;
+  text-decoration: none;
+  font-size: 13px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  transition: background-color 0.2s ease;
+}
+
+.about-btn:hover {
+  background-color: #333333;
+}
+
+/* ==========================================================================
+   RESPONSIVE MEDIA QUERIES
+   ========================================================================== */
+@media (max-width: 900px) {
+  .project-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 850px) {
+  .about-container {
+    flex-direction: column-reverse;
+    gap: 40px;
+    align-items: center;
+  }
+  
+  .about-sidebar {
+    position: static;
+    max-width: 320px;
+  }
+}
+
+@media (max-width: 600px) {
+  .project-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .hero-layout {
+    flex-direction: column-reverse;
+    gap: 30px;
+  }
+
+  .projects-header .page-title {
+    font-size: 38px;
+  }
+
+  .feature-row, .feature-row.reverse {
+    flex-direction: column;
+    gap: 30px;
+    padding: 40px 0;
+  }
+  
+  .feature-image {
+    max-width: 100%;
+  }
 }
